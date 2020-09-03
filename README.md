@@ -1,5 +1,5 @@
 ## Akemi Website
-### Funcionant amb VUEjs i Flask
+#### VUEjs i Flask
 
 Aquesta pàgina web, es una petita pràctica que consisteix en fer una lloc web, en aquest cas *Akemi*, que funciona en un servidor VUEJS agafant les dades d'un servidor Flask que les pasa a JSON.
   
