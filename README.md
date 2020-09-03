@@ -4,11 +4,15 @@
 
 Aquesta pàgina web, es una petita pràctica que consisteix en fer una lloc web HTML, en aquest cas *Akemi*, que funciona en un servidor Vue.js agafant les dades d'un servidor Flask que les pasa en JSON.
 
+**Requisits per fer la pràctica :**
+- Coneixement bàsic d'HTML i CSS
+- Coneixement bàsic de Java / JavaScript
+
   
 **Objectius de la pràctica :**
-- [x] Crear una plana web funcional utilitzant HTML+CSS, aplicant Bootstrap per fer una plana igual al resultat
-- [x] Agafar aquesta plana i fer-la funcionar en un servidor Vue utilitzant JavaScript
-- [x] Fer que el servidor Vue agafi les dades d'un servidor Flask que pasa les dades en Json (envegudes d'una base de dades creada)
+- Crear una plana web funcional utilitzant HTML+CSS, aplicant Bootstrap per fer una plana igual al resultat
+- Agafar aquesta plana i fer-la funcionar en un servidor Vue utilitzant JavaScript
+- Fer que el servidor Vue agafi les dades d'un servidor Flask que pasa les dades en Json (envegudes d'una base de dades creada)
 
 
 **Links :**  
