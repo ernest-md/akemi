@@ -1,0 +1,29 @@
+body {
+  background-image: url("imgs/bg.png");
+  font-family: Akemi;
+  font-size: 11px;
+}
+
+@font-face {
+  font-family: Akemi;
+  src: url(fonts/Orator-Std-Medium_34151.ttf);
+}
+
+a {
+  color: black;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-header,
+.modal-footer {
+  margin: auto;
+  padding: 10px;
+}

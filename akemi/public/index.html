@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>Akemi Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </style>
+  </head>
+      
+      <!-- Script responsive -->
+    <script type="text/javascript" language = "javascript">
+      $(window).resize(function() {
+          var width = $(window).width();
+
+          // Canvi de logo
+          if (width <= 576){
+          $("#logo").attr("src", "imgs/logo_akemi_xs.png");
+          $("#logo").addClass("mb-3");
+          }
+
+          if (width > 576){
+          $("#logo").attr("src", "imgs/logo_akemi.png");
+          $("#logo").removeClass("mb-3");
+          }
+          
+          // Reescalament del body
+          if (width <= 992){
+          $("#body").attr("class", "container-fluid");
+          } else {
+          $("#body").attr("class", "container");
+          }
+          
+          // Reescalar de les cartes
+          if (width <= 768){
+          $(".card-img-top").addClass("w-75 ml-5 mr-5");
+          $(".card-text").addClass("text-center");
+          } else {
+          $(".card-img-top").removeClass("w-75 ml-5 mr-5");
+          $(".card-text").removeClass("text-center");
+          }
+      });
+    </script>
+
+  <body id="body" class="container">
+
+    <!-- VUEJS + FLASK(JSON) App -->
+    <div id="app"></div>
+
+  </body>
+</html> 
